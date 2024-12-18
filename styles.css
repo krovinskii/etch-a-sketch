@@ -1,24 +1,29 @@
 #htmlMainBox {
     background-color: rgb(73, 52, 52);
     color: red;
-    max-height: 100%;
-    width: 50%; /* Occupy only half of the screen width */
+    height: 960px;
+    width: 960px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 0 auto; /* Center the container */
+    margin: 20px auto 0 auto;  
 }
+
 div {
     background-color: azure;
 }
+
 * {
     background-color: rgb(59, 59, 59);
 }
+
 body {
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    text-align: center;  
 }
+
 button {
     background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
     border-radius: 6px;
@@ -26,18 +31,15 @@ button {
     color: whitesmoke;
     text-shadow: 1.5px 2px 1px black;
     text-align: center;
-    box-shadow: 1.5 2px 4px rgba(0, 0, 0, 0.2);
-    /*
-    position: absolute;
-    left: 50%;
-    top: 1%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);*/
-    
+    box-shadow: 1.5px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+    padding: 20px 80px;
 }
+
 button:active {
     background-image: linear-gradient(to right, #594d25 0%, #452c25 51%, #746431 100%);
 }
+
 button:hover {
     background-image: linear-gradient(to right, #ddbf5b 0%, #db8972 51%, #ddbf5a 100%);
 }
@@ -46,11 +48,11 @@ button:hover {
     background-color: azure;
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    max-height: 300px;
-    min-height: 20px;
-    aspect-ratio: 1 / 1;
     margin: 0;
-    box-sizing: border-box; /* Ensure padding and border are included in width/height calculation */
+    box-sizing: border-box;
+    border: 1px solid black;
 }
+
+
+
 
