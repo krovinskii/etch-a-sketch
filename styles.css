@@ -1,0 +1,42 @@
+#htmlMainBox {
+    background-color: rgb(73, 52, 52);
+    color: red;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+div {
+    background-color: azure;
+    width: 100px;
+    height: 50px;
+}
+* {
+    background-color: rgb(59, 59, 59);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+button {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    border-radius: 6px;
+    font-family: Helvetica;
+    color: whitesmoke;
+    text-shadow: 1.5px 2px 1px black;
+    text-align: center;
+    box-shadow: 1.5 2px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+button:active {
+    background-image: linear-gradient(to right, #594d25 0%, #452c25 51%, #746431 100%);
+}
+button:hover {
+    background-image: linear-gradient(to right, #ddbf5b 0%, #db8972 51%, #ddbf5a 100%);
+}
+
